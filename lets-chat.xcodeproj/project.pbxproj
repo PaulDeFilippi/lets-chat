@@ -8,20 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		4FA2C2C9230B6F3300215103 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA2C2C8230B6F3300215103 /* AppDelegate.swift */; };
-		4FA2C2CB230B6F3300215103 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA2C2CA230B6F3300215103 /* ViewController.swift */; };
+		4FA2C2CB230B6F3300215103 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA2C2CA230B6F3300215103 /* ChatViewController.swift */; };
 		4FA2C2CE230B6F3300215103 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FA2C2CC230B6F3300215103 /* Main.storyboard */; };
 		4FA2C2D0230B6F3600215103 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FA2C2CF230B6F3600215103 /* Assets.xcassets */; };
 		4FA2C2D3230B6F3600215103 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FA2C2D1230B6F3600215103 /* LaunchScreen.storyboard */; };
+		4FA2C2DB230B718A00215103 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 4FA2C2DA230B718A00215103 /* Podfile */; };
+		4FF0F689230B79650003034F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4FF0F688230B79650003034F /* GoogleService-Info.plist */; };
+		4FF0F68B230B7A130003034F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF0F68A230B7A130003034F /* Constants.swift */; };
+		5543CD9C4DD0EB88E01BC723 /* Pods_lets_chat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D89B0DD48253A0D7765FC5DE /* Pods_lets_chat.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		285F1F5A9DE3D6738A13C0C4 /* Pods-lets-chat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lets-chat.debug.xcconfig"; path = "Target Support Files/Pods-lets-chat/Pods-lets-chat.debug.xcconfig"; sourceTree = "<group>"; };
 		4FA2C2C5230B6F3300215103 /* lets-chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "lets-chat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FA2C2C8230B6F3300215103 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4FA2C2CA230B6F3300215103 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4FA2C2CA230B6F3300215103 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		4FA2C2CD230B6F3300215103 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4FA2C2CF230B6F3600215103 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4FA2C2D2230B6F3600215103 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4FA2C2D4230B6F3600215103 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FA2C2DA230B718A00215103 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		4FF0F687230B74290003034F /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		4FF0F688230B79650003034F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4FF0F68A230B7A130003034F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D1DD1056D31F078104638425 /* Pods-lets-chat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lets-chat.release.xcconfig"; path = "Target Support Files/Pods-lets-chat/Pods-lets-chat.release.xcconfig"; sourceTree = "<group>"; };
+		D89B0DD48253A0D7765FC5DE /* Pods_lets_chat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_lets_chat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5543CD9C4DD0EB88E01BC723 /* Pods_lets_chat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,8 +50,13 @@
 		4FA2C2BC230B6F3300215103 = {
 			isa = PBXGroup;
 			children = (
+				4FF0F688230B79650003034F /* GoogleService-Info.plist */,
+				4FF0F687230B74290003034F /* Bridging-Header.h */,
+				4FA2C2DA230B718A00215103 /* Podfile */,
 				4FA2C2C7230B6F3300215103 /* lets-chat */,
 				4FA2C2C6230B6F3300215103 /* Products */,
+				E3FC9400393846DF288B519B /* Pods */,
+				79F8CA226CB4F18A68CD3664 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +72,31 @@
 			isa = PBXGroup;
 			children = (
 				4FA2C2C8230B6F3300215103 /* AppDelegate.swift */,
-				4FA2C2CA230B6F3300215103 /* ViewController.swift */,
+				4FA2C2CA230B6F3300215103 /* ChatViewController.swift */,
 				4FA2C2CC230B6F3300215103 /* Main.storyboard */,
 				4FA2C2CF230B6F3600215103 /* Assets.xcassets */,
 				4FA2C2D1230B6F3600215103 /* LaunchScreen.storyboard */,
 				4FA2C2D4230B6F3600215103 /* Info.plist */,
+				4FF0F68A230B7A130003034F /* Constants.swift */,
 			);
 			path = "lets-chat";
+			sourceTree = "<group>";
+		};
+		79F8CA226CB4F18A68CD3664 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D89B0DD48253A0D7765FC5DE /* Pods_lets_chat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E3FC9400393846DF288B519B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				285F1F5A9DE3D6738A13C0C4 /* Pods-lets-chat.debug.xcconfig */,
+				D1DD1056D31F078104638425 /* Pods-lets-chat.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +106,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4FA2C2D7230B6F3700215103 /* Build configuration list for PBXNativeTarget "lets-chat" */;
 			buildPhases = (
+				69FCD39C4C3DBCFCA377BD7D /* [CP] Check Pods Manifest.lock */,
 				4FA2C2C1230B6F3300215103 /* Sources */,
 				4FA2C2C2230B6F3300215103 /* Frameworks */,
 				4FA2C2C3230B6F3300215103 /* Resources */,
+				3707F7659801DDE1AE93CD24 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,19 +161,79 @@
 			files = (
 				4FA2C2D3230B6F3600215103 /* LaunchScreen.storyboard in Resources */,
 				4FA2C2D0230B6F3600215103 /* Assets.xcassets in Resources */,
+				4FF0F689230B79650003034F /* GoogleService-Info.plist in Resources */,
+				4FA2C2DB230B718A00215103 /* Podfile in Resources */,
 				4FA2C2CE230B6F3300215103 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3707F7659801DDE1AE93CD24 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-lets-chat/Pods-lets-chat-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/JSQMessagesViewController/JSQMessagesViewController.framework",
+				"${BUILT_PRODUCTS_DIR}/JSQSystemSoundPlayer/JSQSystemSoundPlayer.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSQMessagesViewController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSQSystemSoundPlayer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-lets-chat/Pods-lets-chat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69FCD39C4C3DBCFCA377BD7D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-lets-chat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4FA2C2C1230B6F3300215103 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FA2C2CB230B6F3300215103 /* ViewController.swift in Sources */,
+				4FA2C2CB230B6F3300215103 /* ChatViewController.swift in Sources */,
 				4FA2C2C9230B6F3300215103 /* AppDelegate.swift in Sources */,
+				4FF0F68B230B7A130003034F /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +377,7 @@
 		};
 		4FA2C2D8230B6F3700215103 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 285F1F5A9DE3D6738A13C0C4 /* Pods-lets-chat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -291,6 +389,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.pauldefilippi.lets-chat";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -298,6 +397,7 @@
 		};
 		4FA2C2D9230B6F3700215103 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1DD1056D31F078104638425 /* Pods-lets-chat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -309,6 +409,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.pauldefilippi.lets-chat";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
